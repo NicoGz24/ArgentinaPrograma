@@ -1,8 +1,8 @@
-"""
-Cree un script que almacene, en dos variables, una base y un exponente, y
-luego muestre en pantalla el resultado de elevar el número base a la
-potencia exponente
-"""
+
+# Cree un script que almacene, en dos variables, una base y un exponente, y
+# luego muestre en pantalla el resultado de elevar el número base a la
+# potencia exponente
+
 
 def calcular_potencia(base, exponente):
     return base ** exponente
