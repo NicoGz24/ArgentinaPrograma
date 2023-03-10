@@ -12,6 +12,8 @@ def tipo_de_numero(numero):
 
 #-----------------------------------------------------
 
-for i in range(1,11):
+cantidad = 0
+while (cantidad <= 10):
     numero = int(input(f'Ingrese un numero '))
     print('El numero ingresado es', tipo_de_numero(numero))
+    cantidad += 1

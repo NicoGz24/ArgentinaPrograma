@@ -10,7 +10,7 @@ def validar_numero(numero):
     while (not numero.isdigit()):
         numero = input('El numero ingresado no es un digito, pruebe nuevamente ')
     return int(numero)
-
+#------------------------------------------------------------------------------------------
 
 numero = input('Ingrese un numero ')
 numero = validar_numero(numero)
